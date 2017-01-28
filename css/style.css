@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+section {
+	margin-bottom:30px;
+}
+
+header {
+	height:773px;
+	background: url("../images/hero.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+nav ul li {
+	display:inline-block;
+}
+/*********************
+         FONTS
+*********************/
+
+h1, h2, h3, h4, h5, p {
+	text-align:center;
+}
+
+h1, h3 {
+	font-family: 'Lusitana', serif;
+}
+
+h2, h4, h5{
+	font-family: 'Open Sans', sans-serif;
+	text-transform:uppercase;
+	font-weight:300;
+}
+
+h1, h2 {
+	color:#ffffff;
+}
+
+h3, h4, h5 {
+	color:#1d5566;
+}
+
+h1 {
+	font-size:68px;
+	vertical-align:center;
+	margin-top:140px;
+}
+
+h2 {
+	font-size:36px;
+	padding:20px 0 40px 0;
+}
+
+h3 {
+	font-size:30px;
+	padding-bottom:30px;
+}
+
+h4 {
+	font-size:30px;
+	padding-bottom:20px;
+
+}
+
+h5 {
+	font-size:20px;
+}
+
+p, ul, table {
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+	font-weight:400px;
+	line-height:22px;
+	color:#333333;
+}
+
+p {
+	margin-bottom:20px;
+	padding-left:20%;
+	padding-right:20%;
+}
+
+/*********************
+         STYLES
+*********************/
+
+.center {
+	display:block;
+	margin:0 auto;
+}
+
+/*********************
+       	 BUTTONS
+*********************/
+
+button {
+	display:block;
+	margin:0 auto;
+	margin-bottom:40px;
+	background-color:#e58e1a;
+	border:0;
+	padding:10px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	color:#ffffff;
+	font-size:20px;
+}
+
+/*********************
+    	 TABLE
+*********************/
+
+table {
+	margin:0 auto;
+}
+
+td{
+	padding:20px 40px 20px 40px;
+}
+
+.stripe {
+	background-color:#f2f3f3;
+}
+
+.time {
+	color: #009fc2;
+}
