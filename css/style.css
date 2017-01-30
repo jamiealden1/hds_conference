@@ -87,6 +87,15 @@ p {
 
 
 /*********************
+        LINKS
+*********************/
+
+a {
+	color:#ffffff;
+	text-decoration:none;
+}
+
+/*********************
        	 BUTTONS
 *********************/
 
@@ -234,7 +243,7 @@ ul.schedule li {
       VENUE
 *********************/
 
-.venue {
+.venue-bkgd {
 	height:500px;
 	background: url("../images/coors.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -298,7 +307,7 @@ ul.hotel-list li {
        REGISTER
 *********************/
 
-.register {
+.register-bkgd {
 	background-color:#f2f3f3;
 	margin-top:40px;
 	padding-bottom:40px;
