@@ -335,6 +335,20 @@ ul.hotel-list li {
 		padding-bottom:20px;
 	}
 
+	/*Header*/
+	header {
+		height:450px;
+	}
+
+	.fixed-header {
+		top:150px;
+	}
+
+	/*Navigation*/
+	nav ul li {
+		padding-left:10px;
+	}
+
 	/*Schedule*/
 	.left, .right {
 		width:100%;
