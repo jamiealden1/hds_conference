@@ -255,12 +255,9 @@ ul.schedule li {
 }
 
 .venue-text {
-	position:absolute;
-	margin: auto;
+	position:relative;
+	margin: 0 auto;
   	position: absolute;
-  	left: 0px;
-  	right: 0px;
-  	bottom: 100px;
   	top: 100px;
 	background-color: rgba(255, 1255, 255, 0.8);
 	-webkit-background-color: rgba(255, 1255, 255, 0.8);
