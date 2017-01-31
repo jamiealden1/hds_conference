@@ -173,7 +173,7 @@
 	<!--Lodging-->
 		<section class="wrapper" id="lodging">
 			<h3>Lodging</h3>
-			<p>To make a reservation, please click the button below. <br/>Reserve your room by March 7, 2017 to receive special pricing!</p>
+			<p>To make a reservation, please click the button below. <br/><span class="bold">Reserve your room by March 7, 2017 to receive special pricing!</span></p>
 			<button href="#">Reserve Room</button>
 			<h4>Magnolia Hotel</h4>
 			<h5>818 17th St  |  Denver, CO 80202  |  (303) 607-9000</h5>
@@ -192,8 +192,77 @@
 		<section class="register-bkgd" id="register">
 			<div class="wrapper">
 				<h3>Register</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-			</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <span class="bold">Price per registrant is $199.</span></p>
+				</div>
+				<!--Form-->
+				<form>
+					
+					<div class="wrapper close">
+						<h5>Attendee Information</h5>
+						<div class="col-1"><label>First Name</label><input type="text" name="firstname"></div>
+						<div class="col-1"><label>Last Name</label><input type="text" name="lastname"></div>
+						<div class="col-1"><label>Tribe</label><input type="text" name="tribe"></div>
+					</div>
+					<div class="wrapper close">
+						<div class="col-2"><label>Street Address</label><input type="text" name="street"></div>
+						<div class="col-1"><label>Suite</label><input class="short" type="text" name="suite"></div>
+					</div>
+					<div class="wrapper close">
+						<div class="col-1"><label>City</label><input type="text" name="city"></div>
+						<div class="col-1"><label>State</label><input type="text" name="state"></div>
+						<div class="col-1"><label>Zip</label><input class="short" type="text" name="zip"></div>
+					</div>
+					<div class="wrapper close">
+						<div class="col-2"><label>Email</label><input type="text" name="email"></div>
+					</div>
+					
+					<div class="wrapper close">
+						<h5>Billing Information</h5>
+						<div class="col-1"><label>First Name</label><input type="text" name="firstnamebilling"></div>
+						<div class="col-1"><label>Last Name</label><input type="text" name="lastnamebilling"></div>
+					</div>
+					<div class="wrapper close">
+						<div class="col-2"><label>Street Address</label><input type="text" name="streetbilling"></div>
+						<div class="col-1"><label>Suite</label><input class="short" type="text" name="suitebilling"></div>
+					</div>
+					<div class="wrapper close">
+						<div class="col-1"><label>City</label><input type="text" name="citybilling"></div>
+						<div class="col-1"><label>State</label><input type="text" name="statebilling"></div>
+						<div class="col-1"><label>Zip</label><input class="short" type="text" name="zipbilling"><</div>
+					</div>
+					<div class="wrapper close">
+						<div class="col-2"><label>Email</label><input type="text" name="emailbilling"></div>
+					</div>
+
+					<div class="wrapper">
+						<h5>Additional Registrants</h5>
+						<div class="col-1">
+							<label>Would you like to register additional people?</label>
+							<select>
+  								<option value="0">0</option>
+  								<option value="1">1</option>
+  								<option value="2">2</option>
+  								<option value="3">3</option>
+  								<option value="4">4</option>
+  								<option value="5">5</option>
+  								<option value="6">6</option>
+  								<option value="7">7</option>
+  								<option value="8">8</option>
+  								<option value="9">9</option>
+  								<option value="10">10</option>
+							</select>
+							<p><span class="bold">Total Cost: </span><span id=total>$199</span></p>
+
+						</div>
+					</div>
+					
+					<div class="wrapper">
+						<h5>Payment Type</h5>
+						<input class="inline" type="radio" name="payment" value="credit"><span class="radio-label inline">Credit</span>
+						<input class="inline" type="radio" name="payment" value="check"><span class="radio-label inline">Check</span>
+						<button type="submit" value="submit">Submit</button>
+					</div>
+				</form>
 		</section>
 	</div>
 <!--Scripts-->
