@@ -279,34 +279,15 @@ ul.schedule li {
        LODGING
 *********************/
 
-ul.hotel-list {
-	list-style-position:outside;
-	list-style-image:url("../images/arrows.png");
-	text-align:left;
-	width:50%;
-}
-
-ul.hotel-list li {
-	padding:10px 0 10px 0;
-}
-
-.left {
-    width: 41.66%;
+.hotels {
+    width: 50%;
  	display:inline-block;
   	padding-left: 1.04166666%;
   	padding-right: 1.04166666%;
-  	margin-top:13px;
  	vertical-align:top;
-  }
+ 	margin-top:40px;
+}
 
-.right {
-    width: 58.33%;
-    display:inline-block;
- 	padding-left: 1.04166666%;
-  	padding-right: 1.04166666%;
-  	margin-left:20px;
- 	vertical-align:top;
-  }
 
 /*********************
        REGISTER
@@ -430,11 +411,9 @@ form p {
 	}
 
 	/*Lodging*/
-	ul.hotel-list {
-		width:100%;
-		padding:30px 20px 0 20px;
+	.hotels {
+    	width: 100%;
 	}
-
 
 	/*Registration*/
 	.col-1, .col-2 {
